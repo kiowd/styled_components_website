@@ -1,8 +1,10 @@
 import React from "react";
+import styled from 'styled-components';
+import { setColor } from "../../styles";
 
 const Header = () => {
   return (
-    <>
+    <Section color={setColor.lightGrey}>
       
       <h1>Hello Styled App</h1>
       <h2>Where can I get some?</h2>
@@ -19,8 +21,19 @@ const Header = () => {
         generated Lorem Ipsum is therefore always free from repetition, injected
         humour, or non-characteristic words etc.
       </p>
-    </>
+    </Section>
   );
 };
 
 export default Header;
+
+const Section = styled.section`
+padding: 1rem 0;
+background: ${props => props.color};
+h1{
+  text-align: center;
+}
+h2, p {
+margin: 1.7rem;
+}
+`

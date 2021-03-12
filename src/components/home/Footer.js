@@ -44,6 +44,7 @@ margin: 1rem;
 }
 hr{
  width: 30vw;
+ opacity: 0.5;
 }
 
 `;

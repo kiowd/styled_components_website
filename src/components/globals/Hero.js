@@ -6,7 +6,7 @@ import { setFlex, setBackground } from "../../styles";
 const Hero = styled.header`
   min-height: 100vh;
   ${setFlex()}
-  ${setBackground({img: estate})}
+  ${setBackground()}
 `;
 
 export default Hero;
