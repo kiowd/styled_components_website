@@ -9,7 +9,7 @@ export const setFlex = ({ x = "center", y = "center" } = {}) => {
 };
 
 export const setBackground = ({
-  img = "https://images.unsplash.com/photo-1606772360683-c8f35e39d90d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzAwfHxoZCUyMHBob3Rvc3xlbnwwfDB8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  img = "https://images.unsplash.com/photo-1470016342826-876ea880d0be?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
   color = "rgba(0,0,0,0)"
 } = {}) => {
   return `
