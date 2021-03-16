@@ -57,19 +57,26 @@ ${screen.phone `
     width: auto;
     
   }
+  h1{
+    font-size: 1rem;
+
+  }
 
 `}
 
-/* @media (min-width: 768px){
-width: 70vw;
-border: 5px solid ${setColor.primaryColor};
+@media (max-width: 768px){
+width: 100vw;
+border: 2px solid ${setColor.primaryColor};
 
 p{
-  width: 65%;
-  color: mediumseagreen;
-}
+  width: 100%;
+  font-size: 14px;
 
-} */
+}
+h1{
+  font-size: 2.5rem;
+}
+}
 
 h1{
   ${fadeIn('X', '-100%', '10%', '0')}
