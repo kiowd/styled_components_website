@@ -55,10 +55,11 @@ ${screen.phone `
 
   p{
     width: auto;
+    font-size: 1rem;
     
   }
   h1{
-    font-size: 1rem;
+    font-size: 2.5rem;
 
   }
 
@@ -70,11 +71,11 @@ border: 2px solid ${setColor.primaryColor};
 
 p{
   width: 100%;
-  font-size: 14px;
+  font-size: 12px;
 
 }
 h1{
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 }
 
