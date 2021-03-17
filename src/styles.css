@@ -2,3 +2,16 @@
   font-family: sans-serif;
   text-align: center;
 }
+.scroll-to-top {
+  color: rgb(189, 15, 73);
+  position: fixed;
+  bottom: 3px;
+  right: 3px;
+  cursor: pointer;
+}
+.scroll-to-top_upArrow {
+  font-size: 1.5rem;
+  padding: 0.0001rem 0.3rem;
+  margin-right: 0.5rem;
+  
+}

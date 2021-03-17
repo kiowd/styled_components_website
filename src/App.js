@@ -8,15 +8,14 @@ export default function App() {
   return (
     <>
       <Hero>
-        <Banner 
-        greeting='Welcome :) '
-        title=' From Styled APP'
-        text=" There are many variations of passages of Lorem Ipsum available, but the
+        <Banner
+          greeting="Welcome :) "
+          title=" From Styled APP"
+          text=" There are many variations of passages of Lorem Ipsum available, but the
         majority have suffered alteration in some form, by injected humour, or
         randomised words which don't look even slightly believable."
         />
-        </Hero>
-                
+      </Hero>
       <GlobalStyles />
       <Home />
     </>
