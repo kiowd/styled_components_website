@@ -33,7 +33,7 @@ const BannerWrapper = styled.div`
   background:  rgba(0,0,0,0.7);
   text-align: center;
   padding: 33px 25px;
-  margin: 65px;
+  margin: 5px;
   letter-spacing: 3px;
   border: 5px solid ${setColor.primaryColor};
   

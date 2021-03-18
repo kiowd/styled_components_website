@@ -37,7 +37,9 @@ ${setTransition}
 &:hover img{
   opacity: 0.5;
 }
-
+.price{
+text-align: center;
+}
 
 `;
 
