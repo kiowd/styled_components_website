@@ -65,5 +65,22 @@ export const setShadow = {
   darkest:'box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);',
 }
 
-// window.sr = ScrollReveal();
-// sr.reveal('.aim');
+export const Infinite = (iterateCount, start, point, end) => {
+  const animation = keyframes `
+
+  0%{
+    opacity: 0.3;
+    transform:scale(${start})
+  }
+  50%{
+    opacity: 0.6;
+    transform:scale(${point})
+  }
+  100%{
+    opacity: 1;
+    transform:scale(${end})
+  }
+  
+  `
+  return css ` animation:${animation} 4s ${iterateCount}; `;
+}

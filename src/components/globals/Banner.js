@@ -1,12 +1,13 @@
 import React from "react";
 import styled from "styled-components";
-import { FaAngleDoubleDown } from "react-icons/fa";
-import { setFlex } from "../../styles";
+import { RiArrowDownCircleFill } from "react-icons/ri";
+import { Infinite } from "../../styles";
 
 import { setColor, screen, fadeIn } from "../../styles";
 
 const Banner = ({ title, greeting, text, children }) => {
   return (
+    
     <BannerWrapper>
       <h1>
         {greeting}
@@ -16,17 +17,19 @@ const Banner = ({ title, greeting, text, children }) => {
         <p>{text}</p>
         {children}
         <FaColor>
-          <FaAngleDoubleDown/>
+          <RiArrowDownCircleFill/>
         </FaColor>  
       </div>
     </BannerWrapper>
+    
+    
   );
 };
 
 const FaColor = styled.div`
-  color: royalblue;
-  margin-top: 7px;
-  font-size: 30px;
+  color: papayawhip;
+  margin-top: 9px;
+  ${Infinite('infinite', '1.5', '2',' 1.5')}
 `
 
 const BannerWrapper = styled.div`
