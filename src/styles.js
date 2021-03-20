@@ -76,7 +76,7 @@ export const Infinite = (iterateCount, start, point, end) => {
     opacity: 0.6;
     transform:scale(${point})
   }
-  100%{
+  80%{
     opacity: 1;
     transform:scale(${end})
   }
